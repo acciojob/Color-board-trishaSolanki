@@ -4,11 +4,12 @@
 	grid-template-columns:repeat(20,40px);
 	gap:5px;
 	margin:20px;
+	
 }
 .square {
       width: 40px;
       height: 40px;
-      background-color: #ccc; /* Initial color */
+      background-color: #1D1D1D; /* Initial color */
       transition: background-color 1s ease; /* Smooth transition */
     }
 
