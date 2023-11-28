@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+.container{
+	display:grid;
+	grid-template-columns:repeat(80,100px);
+	gap:5px;
+	margin:20px;
+}
+.square {
+      width: 500px;
+      height: 500px;
+      background-color: #ccc; /* Initial color */
+      transition: background-color 1s ease; /* Smooth transition */
+    }
+
+    .square:hover {
+      background-color: #3498db; /* Color on hover */
+    }
