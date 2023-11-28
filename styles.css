@@ -9,10 +9,10 @@
 .square {
       width: 40px;
       height: 40px;
-      background-color: #1D1D1D; /* Initial color */
+      background-color: rgb(29,29,29); /* Initial color */
       transition: background-color 1s ease; /* Smooth transition */
     }
 
     .square:hover {
-      background-color:rgb(29,29,29); /* Color on hover */
+      background-color:blueviolet; /* Color on hover */
     }
